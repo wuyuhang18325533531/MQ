@@ -1,0 +1,9 @@
+2020/09/24 15:08:37 dialing "amqp://guest:guest@localhost:5672/"
+2020/09/24 15:08:37 got Connection, getting Channel
+2020/09/24 15:08:37 got Channel, declaring Exchange ("test-idoall-exchange-direct-logs")
+2020/09/24 15:08:37 Binding queue amq.gen-GJbj92bPat74LWQlAZyCpQ to exchange test-idoall-exchange-direct-logs with routing key warning
+2020/09/24 15:08:37 Binding queue amq.gen-GJbj92bPat74LWQlAZyCpQ to exchange test-idoall-exchange-direct-logs with routing key error
+2020/09/24 15:08:37 Queue bound to Exchange, starting Consume
+2020/09/24 15:08:37  [*] Waiting for messages. To exit press CTRL+C
+2020/09/24 15:09:00  [x] Error. Error
+2020/09/24 15:09:01  [x] warning. warning

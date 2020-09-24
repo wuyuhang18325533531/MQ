@@ -1,0 +1,10 @@
+
+
+- RabbitMQ 的Messaging Model就是Producer并不会直接发送Message到queue。实际上，Producer并不知道它发送的Message是否已经到达queue。
+
+- Producer发送的Message实际上是发到了Exchange中。它的功能也很简单：从Producer接收Message，然后投递到queue中。Exchange需要知道如何处理Message，是把它放到一个queue中，还是放到多个queue中？这个rule是通过Exchange 的类型定义的。
+
+- 我们知道有三种类型的Exchange：direct,，topic，headers 和fanout。fanout就是广播模式，会将所有的Message都放到它所知道的queue中。
+
+- 现在我们已经创建了fanout类型的exchange和没有名字的queue（实际上是RabbitMQ帮我们取了名字）。那exchange怎么样知道它的Message发送到哪个queue呢？答案就是通过bindings
+
