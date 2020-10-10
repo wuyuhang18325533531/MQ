@@ -1,4 +1,4 @@
-###1. RabbitMQ介绍
+#1. RabbitMQ介绍
 ######1.1、什么是RabbitMQ？
 ```js
   RabbitMQ 是由 LShift 提供的一个 Advanced Message Queuing Protocol (AMQP) 的开源实现，由以高性能、健壮以及可伸缩性出名的 Erlang 写成，因此也是继承了这些优点。
